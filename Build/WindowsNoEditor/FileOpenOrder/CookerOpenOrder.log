@@ -1,383 +1,743 @@
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 0
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 1
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 2
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 3
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 4
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 5
-"../../../Engine/Content/BasicShapes/Cone.uasset" 6
-"../../../Engine/Content/BasicShapes/Plane.uasset" 7
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 8
-"../../../Engine/Content/BufferVisualization/AmbientOcclusion.uasset" 9
-"../../../Engine/Content/BufferVisualization/BaseColor.uasset" 10
-"../../../Engine/Content/BufferVisualization/CustomDepth.uasset" 11
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 12
-"../../../Engine/Content/BufferVisualization/CustomDepthWorldUnits.uasset" 13
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 14
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 15
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ScreenResolution.uasset" 16
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.uasset" 17
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 18
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 19
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 20
-"../../../Engine/Content/BufferVisualization/CustomStencil.uasset" 21
-"../../../Engine/Content/BufferVisualization/FinalImage.uasset" 22
-"../../../Engine/Content/BufferVisualization/LightingModel.uasset" 23
-"../../../Engine/Content/BufferVisualization/MaterialAO.uasset" 24
-"../../../Engine/Content/BufferVisualization/Metallic.uasset" 25
-"../../../Engine/Content/BufferVisualization/Opacity.uasset" 26
-"../../../Engine/Content/BufferVisualization/PostTonemapHDRColor.uasset" 27
-"../../../Engine/Content/BufferVisualization/PreTonemapHDRColor.uasset" 28
-"../../../Engine/Content/BufferVisualization/Roughness.uasset" 29
-"../../../Engine/Content/BufferVisualization/SceneColor.uasset" 30
-"../../../Engine/Content/BufferVisualization/SceneDepth.uasset" 31
-"../../../Engine/Content/BufferVisualization/SceneDepthWorldUnits.uasset" 32
-"../../../Engine/Content/BufferVisualization/SeparateTranslucencyA.uasset" 33
-"../../../Engine/Content/BufferVisualization/SeparateTranslucencyRGB.uasset" 34
-"../../../Engine/Content/BufferVisualization/Specular.uasset" 35
-"../../../Engine/Content/BufferVisualization/SubsurfaceColor.uasset" 36
-"../../../Engine/Content/BufferVisualization/Velocity.uasset" 37
-"../../../Engine/Content/BufferVisualization/WorldNormal.uasset" 38
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 39
-"../../../Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset" 40
-"../../../Engine/Content/EditorLandscapeResources/LandscapeGizmoHeight_Mat.uasset" 41
-"../../../Engine/Content/EditorLandscapeResources/LandscapeGizmo_Mat.uasset" 42
-"../../../Engine/Content/EditorLandscapeResources/LandscapeGizmo_Mat_Copied.uasset" 43
-"../../../Engine/Content/EditorLandscapeResources/SplineEditorMeshMat.uasset" 44
-"../../../Engine/Content/EditorLandscapeResources/SplineEditorMesh.uasset" 45
-"../../../Engine/Content/EditorMaterials/Cross.uasset" 46
-"../../../Engine/Content/EditorMaterials/Cross_Mat.uasset" 47
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 48
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.uasset" 49
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.uasset" 50
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset" 51
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset" 52
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.uasset" 53
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat2Values.uasset" 54
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset" 55
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset" 56
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sign.uasset" 57
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Round.uasset" 58
-"../../../Engine/Content/EditorResources/T_EditorHelp.uasset" 59
-"../../../Engine/Content/EditorMaterials/HelpActorMaterial.uasset" 60
-"../../../Engine/Content/EditorMaterials/CompositeARGBLayer.uasset" 61
-"../../../Engine/Content/EditorMaterials/TilingAALineIntegral.uasset" 62
-"../../../Engine/Content/EditorMaterials/TilingAALineBoxFiltered.uasset" 63
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 64
-"../../../Engine/Content/EditorMaterials/TilingAADots.uasset" 65
-"../../../Engine/Content/EngineMaterials/BlendFunc_DefBase.uasset" 66
-"../../../Engine/Content/EngineMaterials/BlendFunc_DefBlend.uasset" 67
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Screen.uasset" 68
-"../../../Engine/Content/EditorMaterials/TilingAAGrid.uasset" 69
-"../../../Engine/Content/EditorMaterials/LevelGridMaterial.uasset" 70
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 71
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 72
-"../../../Engine/Content/EditorMaterials/PhAT_BoneSelectedMaterial.uasset" 73
-"../../../Engine/Content/EditorMaterials/PhAT_ElemSelectedMaterial.uasset" 74
-"../../../Engine/Content/EditorMaterials/PhAT_NoCollisionMaterial.uasset" 75
-"../../../Engine/Content/EditorMaterials/PhAT_UnselectedMaterial.uasset" 76
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 77
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 78
-"../../../Engine/Content/EditorMaterials/TargetIcon.uasset" 79
-"../../../Engine/Content/EditorMaterials/Tick.uasset" 80
-"../../../Engine/Content/EditorMaterials/Tick_Mat.uasset" 81
-"../../../Engine/Content/EditorMaterials/WidgetGridVertexColorMaterial.uasset" 82
-"../../../Engine/Content/EditorMaterials/WidgetGridVertexColorMaterial_Ma.uasset" 83
-"../../../Engine/Content/EditorMaterials/WidgetMaterial.uasset" 84
-"../../../Engine/Content/EditorMaterials/WidgetMaterial_Current.uasset" 85
-"../../../Engine/Content/EditorMaterials/WidgetMaterial_X.uasset" 86
-"../../../Engine/Content/EditorMaterials/WidgetMaterial_Y.uasset" 87
-"../../../Engine/Content/EditorMaterials/WidgetMaterial_Z.uasset" 88
-"../../../Engine/Content/EditorMaterials/WidgetVertexColorMaterial.uasset" 89
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 90
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 91
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 92
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 93
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 94
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 95
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 96
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 97
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 98
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 99
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 100
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 101
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 102
-"../../../Engine/Content/EngineMaterials/Grid.uasset" 103
-"../../../Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset" 104
-"../../../Engine/Content/EditorMeshes/EditorCube.uasset" 105
-"../../../Engine/Content/EditorMeshes/EditorCylinder.uasset" 106
-"../../../Engine/Content/EditorMeshes/EditorPlane.uasset" 107
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 108
-"../../../Engine/Content/EditorMeshes/EditorSkySphere.uasset" 109
-"../../../Engine/Content/EditorMeshes/EditorSphere.uasset" 110
-"../../../Engine/Content/EditorResources/MatineeCam_D.uasset" 111
-"../../../Engine/Content/EditorMaterials/MatineeCam_mat.uasset" 112
-"../../../Engine/Content/EditorMeshes/MatineeCam_SM.uasset" 113
-"../../../Engine/Content/EditorMeshes/PlanarReflectionPlane.uasset" 114
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 115
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_CameraBody.uasset" 116
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleOpaque.uasset" 117
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_CamViewFinder.uasset" 118
-"../../../Engine/Content/EditorMeshes/Camera/SM_CineCam.uasset" 119
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 120
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 121
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 122
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 123
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 124
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 125
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 126
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 127
-"../../../Engine/Content/EditorResources/Bad.uasset" 128
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 129
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 130
-"../../../Engine/Content/EditorResources/MatInstActSprite.uasset" 131
-"../../../Engine/Content/EditorResources/SceneManager.uasset" 132
-"../../../Engine/Content/EditorResources/SmallFont.uasset" 133
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 134
-"../../../Engine/Content/EditorResources/S_DecalActorIcon.uasset" 135
-"../../../Engine/Content/EditorResources/S_Emitter.uasset" 136
-"../../../Engine/Content/EditorResources/S_ExpoHeightFog.uasset" 137
-"../../../Engine/Content/EditorResources/S_FTest.uasset" 138
-"../../../Engine/Content/EditorResources/S_KBSJoint.uasset" 139
-"../../../Engine/Content/EditorResources/S_KHinge.uasset" 140
-"../../../Engine/Content/EditorResources/S_KPrismatic.uasset" 141
-"../../../Engine/Content/EditorResources/S_LevelSequence.uasset" 142
-"../../../Engine/Content/EditorResources/S_NavP.uasset" 143
-"../../../Engine/Content/EditorResources/S_Note.uasset" 144
-"../../../Engine/Content/EditorResources/S_Player.uasset" 145
-"../../../Engine/Content/EditorResources/S_PortalActorIcon2.uasset" 146
-"../../../Engine/Content/EditorResources/S_RadForce.uasset" 147
-"../../../Engine/Content/EditorResources/S_ReflActorIcon.uasset" 148
-"../../../Engine/Content/EditorResources/S_SkyAtmosphere.uasset" 149
-"../../../Engine/Content/EditorResources/S_Solver.uasset" 150
-"../../../Engine/Content/EditorResources/S_Terrain.uasset" 151
-"../../../Engine/Content/EditorResources/S_TextRenderActorIcon.uasset" 152
-"../../../Engine/Content/EditorResources/S_Thruster.uasset" 153
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 154
-"../../../Engine/Content/EditorResources/S_VectorFieldVol.uasset" 155
-"../../../Engine/Content/EditorResources/S_WindDirectional.uasset" 156
-"../../../Engine/Content/EditorResources/AI/S_NavLink.uasset" 157
-"../../../Engine/Content/EditorResources/LightIcons/SkyLight.uasset" 158
-"../../../Engine/Content/EditorResources/LightIcons/S_LightDirectional.uasset" 159
-"../../../Engine/Content/EditorResources/LightIcons/S_LightDirectionalMove.uasset" 160
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 161
-"../../../Engine/Content/EditorResources/LightIcons/S_LightPoint.uasset" 162
-"../../../Engine/Content/EditorResources/LightIcons/S_LightPointMove.uasset" 163
-"../../../Engine/Content/EditorResources/LightIcons/S_LightSpot.uasset" 164
-"../../../Engine/Content/EditorResources/LightIcons/S_LightSpotMove.uasset" 165
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 166
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 167
-"../../../Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset" 168
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 169
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 170
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 171
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 172
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 173
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 174
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 175
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 176
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 177
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 178
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 179
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 180
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 181
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 182
-"../../../Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset" 183
-"../../../Engine/Content/EngineDebugMaterials/LevelColorationUnlitMaterial.uasset" 184
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 185
-"../../../Engine/Content/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.uasset" 186
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 187
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 188
-"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 189
-"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 190
-"../../../Engine/Content/EngineDebugMaterials/ShadedLevelColorationLitMaterial.uasset" 191
-"../../../Engine/Content/EngineDebugMaterials/ShadedLevelColorationUnlitMateri.uasset" 192
-"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 193
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_AlphaAsColor.uasset" 194
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_BlueOnly.uasset" 195
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_ColorOnly.uasset" 196
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_GreenOnly.uasset" 197
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_RedOnly.uasset" 198
-"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 199
-"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 200
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 201
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 202
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 203
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 204
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 205
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 206
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 207
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 208
-"../../../Engine/Content/EngineFonts/SmallFont.uasset" 209
-"../../../Engine/Content/EngineFonts/TinyFont.uasset" 210
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 211
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 212
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 213
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 214
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 215
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 216
-"../../../Engine/Content/EngineMaterials/BlinkingCaret.uasset" 217
-"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 218
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 219
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 220
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 221
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 222
-"../../../Engine/Content/EngineMaterials/DefaultNormal.uasset" 223
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 224
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 225
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 226
-"../../../Engine/Content/EngineMaterials/DefaultVirtualTextureMaterial.uasset" 227
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 228
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 229
-"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 230
-"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 231
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 232
-"../../../Engine/Content/EngineMaterials/Grid_N.uasset" 233
-"../../../Engine/Content/EngineMaterials/HairColorMap.uasset" 234
-"../../../Engine/Content/EngineMaterials/HairDebugColor.uasset" 235
-"../../../Engine/Content/EngineMaterials/HairDebugMaterial.uasset" 236
-"../../../Engine/Content/EngineMaterials/HairDefaultMaterial.uasset" 237
-"../../../Engine/Content/EngineMaterials/HighResolutionScreenshotMaskFunction.uasset" 238
-"../../../Engine/Content/EngineMaterials/HighResScreenshot.uasset" 239
-"../../../Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset" 240
-"../../../Engine/Content/EngineMaterials/HighResScreenshotMask.uasset" 241
-"../../../Engine/Content/EngineMaterials/LandscapeHolePhysicalMaterial.uasset" 242
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 243
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 244
-"../../../Engine/Content/EngineMaterials/PaperDiffuse.uasset" 245
-"../../../Engine/Content/EngineMaterials/PaperNormal.uasset" 246
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 247
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 248
-"../../../Engine/Content/EngineMaterials/PhysMat_Rubber.uasset" 249
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 250
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 251
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 252
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/sRGBToLinear.uasset" 253
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 254
-"../../../Engine/Content/EngineMaterials/Widget3DCameraPassThrough_Opaque_OneSided.uasset" 255
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 256
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 257
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 258
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 259
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 260
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 261
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 262
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 263
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 264
-"../../../Engine/Content/EngineResources/Black.uasset" 265
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 266
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 267
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 268
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 269
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 270
-"../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset" 271
-"../../../Engine/Content/EngineResources/M_StreamingPause.uasset" 272
-"../../../Engine/Content/EngineSounds/Master.uasset" 273
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 274
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 275
-"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 276
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 277
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 278
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 279
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 280
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 281
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 282
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 283
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 284
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 285
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 286
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 287
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 288
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 289
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 290
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 291
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 292
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 293
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 294
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 295
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 296
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 297
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 298
-"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 299
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 300
-"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 301
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 302
-"../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset" 303
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 304
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 305
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 306
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 307
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 308
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 309
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 310
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 311
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 312
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 313
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/TopDownOverview.uasset" 314
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 315
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 316
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 317
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 318
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 319
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 320
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 321
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 322
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 323
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 324
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 325
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 326
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 327
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 328
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 329
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 330
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 331
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPersonRun.uasset" 332
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 333
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 334
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 335
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 336
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 337
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 338
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Blueprints/KFbullet.uasset" 339
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 340
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Blueprints/PSIhitbox.uasset" 341
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Blueprints/TFmine.uasset" 342
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 343
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 344
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 345
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 346
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 347
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 348
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 349
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 350
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 351
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 352
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 353
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 354
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 355
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 356
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 357
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 358
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 359
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 360
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 361
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" 362
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 363
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 364
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 365
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 366
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 367
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 368
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 369
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 370
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 371
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Blueprints/TopDownController.uasset" 372
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Blueprints/TopDownGameMode.uasset" 373
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" 374
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Geometry/Meshes/TemplateFloor.uasset" 375
-"../../../Engine/Content/BasicShapes/Cube.uasset" 376
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Geometry/Meshes/CubeMaterial.uasset" 377
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Geometry/Meshes/1M_Cube.uasset" 378
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 379
-"C:/Users/Jakob/Documents/GitHub/BadTrip/Content/TopDownBP/Maps/TopDownExampleMap.umap" 380
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 381
-"../../../Engine/Content/Maps/Entry.umap" 382
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Atmosphere.uasset" 0
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Atmosphere.uasset" 1
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/NewAreaSound.uasset" 2
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/DamoIntro.uasset" 3
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Boss_music_intro.uasset" 4
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/Damo.uasset" 5
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/DamoIntro_video.uasset" 6
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/damo_mat.uasset" 7
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/BossIntro.uasset" 8
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 9
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 10
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 11
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 12
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 13
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPersonRun.uasset" 14
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 15
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 16
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 17
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 18
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 19
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 20
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 21
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 22
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 23
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 24
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 25
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 26
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 27
+"../../Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.uasset" 28
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/enemy_projectile_Sprite_0.uasset" 29
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/enemy_projectile_Sprite_1.uasset" 30
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/enemy_projectile_Sprite_2.uasset" 31
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/enemy_projectile_Sprite_3.uasset" 32
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/EnemyProj.uasset" 33
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/BossBullet.uasset" 34
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/EnemyBullet.uasset" 35
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Doors_unlocked.uasset" 36
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Key_Sprite.uasset" 37
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Key_Flipbook.uasset" 38
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/RoomKey.uasset" 39
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealthSkel.uasset" 40
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Bones_falling.uasset" 41
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Enemy_taking_damage_2_normal_pitch.uasset" 42
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Monster.uasset" 43
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_0.uasset" 44
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_1.uasset" 45
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_2.uasset" 46
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_3.uasset" 47
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_4.uasset" 48
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/ShooterIdle.uasset" 49
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_5.uasset" 50
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_6.uasset" 51
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_7.uasset" 52
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_8.uasset" 53
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_9.uasset" 54
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/ShooterRight.uasset" 55
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/double_pixel-7.uasset" 56
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/double_pixel-7.uasset" 57
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/double_pixel-7_Font.uasset" 58
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/YOU_DIED.uasset" 59
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Keys_Sprite_0.uasset" 60
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Keys_Sprite_1.uasset" 61
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Keys_Sprite_2.uasset" 62
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/health_bar_fifty.uasset" 63
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/health_bar_full.uasset" 64
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/health_bar_SeventyFive.uasset" 65
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/health_bar_twentyfive.uasset" 66
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/Key.uasset" 67
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/Keys_Red.uasset" 68
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/KeysGreen.uasset" 69
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/KeysPurp.uasset" 70
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/KeyTemp.uasset" 71
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Player/GameOver.uasset" 72
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Player/kickflip_cool.uasset" 73
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Player/popshove_cool.uasset" 74
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Player/treflip_cool.uasset" 75
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Player/HUD_Player.uasset" 76
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/SingleShotEnemy.uasset" 77
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/NecromancerSummon.uasset" 78
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_0.uasset" 79
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_1.uasset" 80
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_2.uasset" 81
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_3.uasset" 82
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_4.uasset" 83
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/BossRight.uasset" 84
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/Menu.uasset" 85
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/MainMenuBG.uasset" 86
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/MainMenuBG_Video.uasset" 87
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Player/WinScreen.uasset" 88
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Boss.uasset" 89
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/Bar.uasset" 90
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealthBoss.uasset" 91
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/BossTrigger.uasset" 92
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Skater_getting_hit.uasset" 93
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/kickflip_projectile_Sprite_0.uasset" 94
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/kickflip_projectile_Sprite_1.uasset" 95
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/kickflip_projectile_Sprite_2.uasset" 96
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/kickflip_projectile_Sprite_3.uasset" 97
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/KickflipProjectile.uasset" 98
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/KFbullet.uasset" 99
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Picking_up_item.uasset" 100
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/iphone_Sprite.uasset" 101
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/move.uasset" 102
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/KickflipPickup.uasset" 103
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 104
+"../../../Engine/Content/BasicShapes/Cube.uasset" 105
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/keygreen.uasset" 106
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PathKeyGreen.uasset" 107
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/keypurple.uasset" 108
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PathKeyPurple.uasset" 109
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/keyred.uasset" 110
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PathKeyREd.uasset" 111
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PopShove.uasset" 112
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 113
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/explosion.uasset" 114
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_explosion_Sprite_0.uasset" 115
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_explosion_Sprite_1.uasset" 116
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_explosion_Sprite_2.uasset" 117
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_explosion_Sprite_3.uasset" 118
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflipboom.uasset" 119
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TFsplode.uasset" 120
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Planting_bomb.uasset" 121
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_mine_Sprite.uasset" 122
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflipmine.uasset" 123
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TFmine.uasset" 124
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TreflipPickup.uasset" 125
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/bg.uasset" 126
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/bg_Video.uasset" 127
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/bg_Video_Mat.uasset" 128
+"../../../Engine/Content/BasicShapes/Plane.uasset" 129
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/atmosphere_bgm.uasset" 130
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Boss_music_LOOP.uasset" 131
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Boss_music_LOOP_Cue.uasset" 132
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/KickPush.uasset" 133
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Ollie_land.uasset" 134
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Ollie_pop.uasset" 135
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/OOOOOOF.uasset" 136
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Skating.uasset" 137
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Skating_sfx.uasset" 138
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/TrickW.uasset" 139
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/attacks/empty.uasset" 140
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/pop_shove-it_shock_wave_Sprite_0.uasset" 141
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/pop_shove-it_shock_wave_Sprite_1.uasset" 142
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/pop_shove-it_shock_wave_Sprite_2.uasset" 143
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/pop_shove-it_shock_wave_Sprite_3.uasset" 144
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/attacks/PSIShockwave.uasset" 145
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_0.uasset" 146
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_1.uasset" 147
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_2.uasset" 148
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_3.uasset" 149
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_4.uasset" 150
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_5.uasset" 151
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/JumpDown.uasset" 152
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_0.uasset" 153
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_1.uasset" 154
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_2.uasset" 155
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_3.uasset" 156
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_4.uasset" 157
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz1.uasset" 158
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_5.uasset" 159
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_6.uasset" 160
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_7.uasset" 161
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_8.uasset" 162
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_9.uasset" 163
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz2.uasset" 164
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_13.uasset" 165
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_14.uasset" 166
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_15.uasset" 167
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_16.uasset" 168
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_17.uasset" 169
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_18.uasset" 170
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/JumpUp.uasset" 171
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_0.uasset" 172
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_1.uasset" 173
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_2.uasset" 174
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_3.uasset" 175
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_4.uasset" 176
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_5.uasset" 177
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/KickDown.uasset" 178
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_17.uasset" 179
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_18.uasset" 180
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_19.uasset" 181
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_20.uasset" 182
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_21.uasset" 183
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/KickLeft.uasset" 184
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_10.uasset" 185
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_6.uasset" 186
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_7.uasset" 187
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_8.uasset" 188
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_9.uasset" 189
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/KickRight.uasset" 190
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_11.uasset" 191
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_12.uasset" 192
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_13.uasset" 193
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_14.uasset" 194
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_15.uasset" 195
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation.uasset" 196
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/a.uasset" 197
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_movement_animation_Sprite_16.uasset" 198
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/KickUp.uasset" 199
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkatingDown.uasset" 200
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkatingLeft.uasset" 201
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkatingRight.uasset" 202
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkatingUp.uasset" 203
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" 204
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Health_pick_up.uasset" 205
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_bull_Sprite.uasset" 206
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/hp.uasset" 207
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PointPIckUp.uasset" 208
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/PointPIckUp.uasset" 209
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Geometry/Meshes/TemplateFloor.uasset" 210
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 211
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/atmosphere_bgm.uasset" 212
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/TopDownOverview.uasset" 213
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/CreditgM.uasset" 214
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PathKey.uasset" 215
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/ProjectileEnemy.uasset" 216
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PSIhitbox.uasset" 217
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 218
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 219
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 220
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 221
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 222
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 223
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 224
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 225
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 226
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 227
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 228
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 229
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 230
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 231
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 232
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 233
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 234
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 235
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 236
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/HUD_Player.uasset" 237
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/StandardEnemy.uasset" 238
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/swarmyEnemy.uasset" 239
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TopDownController.uasset" 240
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways_Sprite_0.uasset" 241
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/rightdoor.uasset" 242
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/BackDoor.uasset" 243
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/SideDoor.uasset" 244
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/DUNGEON_BuiltData.uasset" 245
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/IntroLevel_BuiltData.uasset" 246
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/IntroLevel.uasset" 247
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/Level1.uasset" 248
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/ground_tiles_and_walls.uasset" 249
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/ground_tiles_and_walls_TileSet.uasset" 250
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/IntroLevel-L.uasset" 251
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/LiamLevel1.uasset" 252
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Atmosphere2.uasset" 253
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/atmosphere3.uasset" 254
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Boss_Laughing_1.uasset" 255
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/eeeeeeeeeeeeeeee.uasset" 256
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/engage1.uasset" 257
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/engage2.uasset" 258
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/NewArea.uasset" 259
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/EnterLevel.uasset" 260
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Ollie_sound.uasset" 261
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/r_u_algood_cuz.uasset" 262
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/u_trippin_bro.uasset" 263
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Water_dripping.uasset" 264
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/weird.uasset" 265
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss.uasset" 266
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_5.uasset" 267
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_6.uasset" 268
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_7.uasset" 269
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_8.uasset" 270
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Sprite_9.uasset" 271
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/box.uasset" 272
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/box_Sprite_1.uasset" 273
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways.uasset" 274
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways_Sprite_1.uasset" 275
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways_Sprite_2.uasset" 276
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways_Sprite_3.uasset" 277
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways_Sprite_4.uasset" 278
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Doors_sideways_Sprite_5.uasset" 279
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Door_front_on.uasset" 280
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/enemy_projectile.uasset" 281
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/fountain.uasset" 282
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_parts_Sprite.uasset" 283
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/fountainparts.uasset" 284
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_parts.uasset" 285
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_portal.uasset" 286
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on.uasset" 287
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on_Sprite_1.uasset" 288
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on_Sprite_2.uasset" 289
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on_Sprite_3.uasset" 290
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on_Sprite_4.uasset" 291
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on_Sprite_5.uasset" 292
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Green_portal.uasset" 293
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/iphone.uasset" 294
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz.uasset" 295
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_5.uasset" 296
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_6.uasset" 297
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_7.uasset" 298
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_8.uasset" 299
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/jumphoriz_Sprite_9.uasset" 300
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_19.uasset" 301
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_20.uasset" 302
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_21.uasset" 303
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_22.uasset" 304
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_23.uasset" 305
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_24.uasset" 306
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_25.uasset" 307
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/JumpLeft.uasset" 308
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Key.uasset" 309
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Keys.uasset" 310
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Keys_Sprite_3.uasset" 311
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/kickflip_projectile.uasset" 312
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation.uasset" 313
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_10.uasset" 314
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_11.uasset" 315
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_12.uasset" 316
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_6.uasset" 317
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_7.uasset" 318
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_8.uasset" 319
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_animation_Sprite_9.uasset" 320
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1_.uasset" 321
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_0.uasset" 322
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_1.uasset" 323
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_2.uasset" 324
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_3.uasset" 325
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Main_Character_sprite_jumping_horizontal_animation__1__Sprite_4.uasset" 326
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_10.uasset" 327
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_11.uasset" 328
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_12.uasset" 329
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_13.uasset" 330
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_14.uasset" 331
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/MultiLeft.uasset" 332
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_10.uasset" 333
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_11.uasset" 334
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_12.uasset" 335
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_13.uasset" 336
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_14.uasset" 337
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/NecroLeft.uasset" 338
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/pop_shove-it_shock_wave.uasset" 339
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/purple_portal.uasset" 340
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_bull.uasset" 341
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on.uasset" 342
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on_Sprite_1.uasset" 343
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on_Sprite_2.uasset" 344
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on_Sprite_3.uasset" 345
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on_Sprite_4.uasset" 346
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on_Sprite_5.uasset" 347
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_portal.uasset" 348
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_10.uasset" 349
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_11.uasset" 350
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_12.uasset" 351
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_13.uasset" 352
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_7.uasset" 353
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_8.uasset" 354
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_9.uasset" 355
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/RightTorch.uasset" 356
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_10.uasset" 357
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_11.uasset" 358
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_12.uasset" 359
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_13.uasset" 360
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations_Sprite_14.uasset" 361
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/ShooterLeft.uasset" 362
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_animations.uasset" 363
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded.uasset" 364
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch.uasset" 365
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_14.uasset" 366
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_15.uasset" 367
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_16.uasset" 368
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_17.uasset" 369
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_18.uasset" 370
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_19.uasset" 371
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_20.uasset" 372
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation.uasset" 373
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_4.uasset" 374
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_5.uasset" 375
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_6.uasset" 376
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_7.uasset" 377
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SwarmerRight.uasset" 378
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation.uasset" 379
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_12.uasset" 380
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_13.uasset" 381
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_14.uasset" 382
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_15.uasset" 383
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/training_dummy.uasset" 384
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_explosion.uasset" 385
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/treflip_mine.uasset" 386
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/triple_enemy_projectile.uasset" 387
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/turret.uasset" 388
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Wall_Spikes_without_floor.uasset" 389
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/old/skaterflipbook.uasset" 390
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkaterDownwards.uasset" 391
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkaterIdle.uasset" 392
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkaterLeft.uasset" 393
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkaterRight.uasset" 394
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SkaterDirectional/SkaterUpwards.uasset" 395
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/double_pixel-7_Font.uasset" 396
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/GameOver.uasset" 397
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/title.uasset" 398
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Menus/ENavigation.uasset" 399
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Menus/MainMenu.uasset" 400
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/MainMenu.uasset" 401
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Menus/Controls.uasset" 402
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Menus/PauseMenu.uasset" 403
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/PauseMenu.uasset" 404
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/KeyTemp_Sprite.uasset" 405
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Assets/Temp_back.uasset" 406
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/ItemText/HealthAquired.uasset" 407
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 408
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 409
+"../../../Engine/Content/BasicShapes/Cone.uasset" 410
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 411
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 412
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 413
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 414
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 415
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 416
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 417
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 418
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 419
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 420
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 421
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 422
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 423
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 424
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 425
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 426
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 427
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 428
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 429
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 430
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 431
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 432
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 433
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 434
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 435
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 436
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 437
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 438
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 439
+"../../../Engine/Content/EditorResources/S_Note.uasset" 440
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 441
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 442
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 443
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 444
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 445
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 446
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 447
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 448
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 449
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 450
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 451
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 452
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 453
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 454
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 455
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 456
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 457
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 458
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 459
+"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 460
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 461
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 462
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 463
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 464
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 465
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 466
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 467
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 468
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 469
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 470
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 471
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 472
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 473
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 474
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 475
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 476
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 477
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 478
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 479
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 480
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 481
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 482
+"../../../Engine/Content/EngineMaterials/DefaultVirtualTextureMaterial.uasset" 483
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 484
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 485
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 486
+"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 487
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 488
+"../../../Engine/Content/EngineMaterials/HairDefaultMaterial.uasset" 489
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 490
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 491
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 492
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 493
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 494
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 495
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 496
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 497
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 498
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 499
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 500
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 501
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 502
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 503
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 504
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 505
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 506
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 507
+"../../../Engine/Content/EngineResources/Black.uasset" 508
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 509
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 510
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 511
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 512
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 513
+"../../../Engine/Content/EngineSounds/Master.uasset" 514
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 515
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 516
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 517
+"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 518
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 519
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 520
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 521
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 522
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 523
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 524
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 525
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 526
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 527
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 528
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 529
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 530
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 531
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 532
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 533
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 534
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 535
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 536
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 537
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 538
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 539
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 540
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 541
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 542
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 543
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 544
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 545
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 546
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 547
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 548
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 549
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 550
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 551
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 552
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 553
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 554
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 555
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 556
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 557
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 558
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 559
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 560
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 561
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealthSwarm.uasset" 562
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Death_sound_2.uasset" 563
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Swarmer.uasset" 564
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_0.uasset" 565
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_1.uasset" 566
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_2.uasset" 567
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_3.uasset" 568
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer.uasset" 569
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_10.uasset" 570
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_11.uasset" 571
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_8.uasset" 572
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Swarmer_animation_Sprite_9.uasset" 573
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SwarmerDeath.uasset" 574
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/SwarmerEnemy.uasset" 575
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealthTurret.uasset" 576
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Dead_turret.uasset" 577
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/turret_Sprite_0.uasset" 578
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/turret1.uasset" 579
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TurretEnemy.uasset" 580
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/NewArea_Cue.uasset" 581
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/ambience.uasset" 582
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TriggerBox_Blueprint.uasset" 583
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/PauseMenu.uasset" 584
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/TopDownGameMode.uasset" 585
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/1-1.umap" 586
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/GM_MainMenu.uasset" 587
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Menu_song.uasset" 588
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Menu_song_Cue.uasset" 589
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Menus/Credits.uasset" 590
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Menus/CreditsScreen.uasset" 591
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/Credits.umap" 592
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/box_Sprite_0.uasset" 593
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/boxfb.uasset" 594
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Box.uasset" 595
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Dummy_hit.uasset" 596
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/training_dummy_Sprite.uasset" 597
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/dummy.uasset" 598
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/dummy.uasset" 599
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/triple_enemy_projectile_Sprite_0.uasset" 600
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/triple_enemy_projectile_Sprite_1.uasset" 601
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/triple_enemy_projectile_Sprite_2.uasset" 602
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/triple_enemy_projectile_Sprite_3.uasset" 603
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/MultiProj.uasset" 604
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/MultiBullet.uasset" 605
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealthMulti.uasset" 606
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_0.uasset" 607
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_1.uasset" 608
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_2.uasset" 609
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_3.uasset" 610
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_4.uasset" 611
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/MultiIdle.uasset" 612
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_5.uasset" 613
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_6.uasset" 614
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_7.uasset" 615
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_8.uasset" 616
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Skeleton_shooter_upgraded_Sprite_9.uasset" 617
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/MultiRight.uasset" 618
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/MultishotEnemy.uasset" 619
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/necrotrigger.uasset" 620
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/SwarmerSummon.uasset" 621
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/SwarmerEnemySummoned.uasset" 622
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealth_SpawnSwarmer.uasset" 623
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/SwarmerNecroed.uasset" 624
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Widgets/Enemy/EnemyHealthNecro.uasset" 625
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Death_necro.uasset" 626
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_0.uasset" 627
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_1.uasset" 628
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_2.uasset" 629
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_3.uasset" 630
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_4.uasset" 631
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/NecroIdle.uasset" 632
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_5.uasset" 633
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_6.uasset" 634
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_7.uasset" 635
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_8.uasset" 636
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/summoner_animation_Sprite_9.uasset" 637
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/NecroRight.uasset" 638
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/NecromancerEnemy.uasset" 639
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/AMBIENT.uasset" 640
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Near_portal_sound.uasset" 641
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Near_portal_sound_Cue.uasset" 642
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Portal_Sound_effect.uasset" 643
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/purple_portal_Sprite_0.uasset" 644
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/purple_portal_Sprite_1.uasset" 645
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/purple_portal_Sprite_2.uasset" 646
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/purple_portal_Sprite_3.uasset" 647
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/portalpurple.uasset" 648
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/Portal.uasset" 649
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/BossTarget1.uasset" 650
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/BossTarget2.uasset" 651
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/BossTarget3.uasset" 652
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/Destinations/D01.uasset" 653
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/Destinations/hubRoom.uasset" 654
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Door_front_on_Sprite_0.uasset" 655
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/frontdoor.uasset" 656
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/FrontDoor.uasset" 657
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/UBackDoor.uasset" 658
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Door_side_on_Sprite_0.uasset" 659
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/greendoor.uasset" 660
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/UBackDoorGREEN.uasset" 661
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/UnlockedDoor.uasset" 662
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/USideDoor.uasset" 663
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/USideDoorGREEN.uasset" 664
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Red_door_side_on_Sprite_0.uasset" 665
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/reddoor.uasset" 666
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Doors/USideDoorRED.uasset" 667
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/fountain_Sprite_0.uasset" 668
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/fountainfb.uasset" 669
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_portal_Sprite_0.uasset" 670
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_portal_Sprite_1.uasset" 671
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_portal_Sprite_2.uasset" 672
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Fountain_portal_Sprite_3.uasset" 673
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/fountainportal.uasset" 674
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Fountain.uasset" 675
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/going_thru_spike.uasset" 676
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Wall_Spikes_without_floor_Sprite_0.uasset" 677
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/spikes.uasset" 678
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Spikes.uasset" 679
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/Torch_sound.uasset" 680
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_0.uasset" 681
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_1.uasset" 682
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_2.uasset" 683
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_3.uasset" 684
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_4.uasset" 685
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_5.uasset" 686
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/skull_torch_Sprite_6.uasset" 687
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/FrontTorch.uasset" 688
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Blueprints/Torch.uasset" 689
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Movies/Background.uasset" 690
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/1-1-L.uasset" 691
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/1-2-L.uasset" 692
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/1-3-L.uasset" 693
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/1-4-L.uasset" 694
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/1-5-L.uasset" 695
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Wall_and_tiles.uasset" 696
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/green_Wall_and_tiles_TileSet.uasset" 697
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/2-1-L.uasset" 698
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/2-2-L.uasset" 699
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/2-3-L.uasset" 700
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/2-4-L.uasset" 701
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Lava.uasset" 702
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Lava_TileSet.uasset" 703
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_walls_and_tiles_togeather.uasset" 704
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_walls_and_tiles_togeather_TileSet.uasset" 705
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/3-1-L.uasset" 706
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/3-2-L.uasset" 707
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/3-3-L.uasset" 708
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Wall_and_tiles_togeather.uasset" 709
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Boss_Wall_and_tiles_togeather_TileSet.uasset" 710
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/Boss-L.uasset" 711
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/MainRoom.uasset" 712
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/SFX/BEGIN.uasset" 713
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Green_portal_Sprite_0.uasset" 714
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Green_portal_Sprite_1.uasset" 715
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Green_portal_Sprite_2.uasset" 716
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/Green_portal_Sprite_3.uasset" 717
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/portalGreen.uasset" 718
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_portal_Sprite_0.uasset" 719
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_portal_Sprite_1.uasset" 720
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_portal_Sprite_2.uasset" 721
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/red_portal_Sprite_3.uasset" 722
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Sprites/portalred.uasset" 723
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/DUNGEON.umap" 724
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/Main_Menu_BuiltData.uasset" 725
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/Main_Menu.umap" 726
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 727
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 728
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 729
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 730
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 731
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 732
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 733
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 734
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 735
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" 736
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Geometry/Meshes/CubeMaterial.uasset" 737
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Geometry/Meshes/1M_Cube.uasset" 738
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 739
+"D:/Samuel McSweeney/Documents/Unreal Projects/BadTrip/Content/TopDownBP/Maps/TopDownExampleMap.umap" 740
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 741
+"../../../Engine/Content/Maps/Entry.umap" 742
